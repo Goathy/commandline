@@ -1,0 +1,24 @@
+{
+  "name": "commandline",
+  "version": "0.0.1",
+  "description": "Playing with build in command line arguments parser",
+  "main": "start.mjs",
+  "scripts": {
+    "lint": "standard start.mjs",
+    "lint:fix": "standard --fix start.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goathy/commandline.git"
+  },
+  "author": "Jakub Gałecki <goathy.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Goathy/commandline/issues"
+  },
+  "homepage": "https://github.com/Goathy/commandline#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "standard": "^17.1.0"
+    }
+}
